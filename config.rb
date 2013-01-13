@@ -20,7 +20,10 @@ set :markdown, :fenced_code_blocks => true,
 #  deploy.host = ""
 #  deploy.path = ""
 #end
-
+activate :deploy do |deploy|
+    deploy.method = :git
+    deploy.branch = "master"
+end
 ###
 # Use LiveReload
 ###
