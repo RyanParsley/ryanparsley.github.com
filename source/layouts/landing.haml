@@ -17,7 +17,7 @@
     = stylesheet_link_tag("style.css")
     = yield_content :head
 
-  %body{:class => page_classes}
+  %body{:class => page_classes + bodyClass? }
     = partial "layouts/partials/header"
     #page.container
       %h1= title

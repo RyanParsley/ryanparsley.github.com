@@ -31,4 +31,13 @@ module LilHelpers
   def active?(part)
      "active" if (data.page.selected == part) or Regexp.new(part).match(request.path)
   end
+  def bodyClass?
+    if data.page.bodyClass
+      bodyClass =  " " + data.page.bodyClass
+    else
+      bodyClass = " "
+    end
+    bodyClass
+  end
+
 end
