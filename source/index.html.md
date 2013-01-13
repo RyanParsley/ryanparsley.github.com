@@ -1,9 +1,8 @@
 ---
-title: What is this thing?
+title: Salutations!
 selected: welcome
 layout: landing
 
 ---
-Fat-free, 100% quick, real talking expensive. Pop-top look listen, tempt buy space vast. Lost gigantic sale advanced excites settle screamin' roasted care keeps. Appearance intense, roasted asked light jiffy. Hearty keeps accomodations absorbent jiffy take.
 
-Whenever fresh, luxury however bigger ever yet luscious stains. Polished, a while economical fights mothers every. Commercial just ordinary genuine power latest bigger outlasts natural. High-tech and quick, quite class sharpest in special moist product surrender want screamin' cholesterol.
+I’m a graphic designer with a passion for front end development. I have a formal design background coupled with the technical chops to build my own solutions. Additionally, I’ve spoken at conferences and meetups where I have been a proponent of such topics as: HTML5, Sass, web standards and designing in the browser. Beyond the web, I’ve worked on a wide range of projects from print to mobile apps.
