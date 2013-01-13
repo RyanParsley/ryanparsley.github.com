@@ -2,6 +2,7 @@
 title: Salutations!
 selected: welcome
 layout: landing
+bodyClass: front
 
 ---
 
