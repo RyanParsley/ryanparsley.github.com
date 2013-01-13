@@ -63,7 +63,11 @@ header[role= banner] {
     padding-bottom: $line-height;
   }
 }
-
+#Logo{
+  font-size: 2em;
+  line-height: 1.5;
+  text-decoration:none;
+}
 body>footer {
   background: $footerBGColor;
 }

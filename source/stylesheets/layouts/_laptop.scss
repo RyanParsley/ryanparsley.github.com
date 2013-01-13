@@ -4,8 +4,6 @@
     @include clearfix;
   }
   #Logo{
-    @include column(3, first);
-    float:left;
     img{
       max-width:100%;
     }
@@ -23,6 +21,11 @@
     border: solid 1px $primaryColor;
     padding:1.5em 1.5em 1em;
     float: left;
+  }
+  .front [role=main]{
+    font-size:1.5em;
+    line-height:1.5;
+    margin-bottom:2em;
   }
   aside {
     @include column(3, last);
