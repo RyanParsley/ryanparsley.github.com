@@ -9,6 +9,8 @@
   }
   [role=main] {
     padding:1.5em 1.5em 1em;
+    font-size:1.5em;
+    line-height:1.5;
   }
   .CTA {
     display: inline-block;
@@ -67,18 +69,15 @@
     @include column(2, first);
     @include append-column(1);
     float: left; 
-    background:rgba(0,0,0,.2);
   }
   .second {
     @include column(2);
     @include append-column(1);
     float: left; 
-    background:rgba(0,0,0,.2);
   }
   .third {
     @include column(4, last);
     float: left; 
-    background:rgba(0,0,0,.2);
   }
 
 }

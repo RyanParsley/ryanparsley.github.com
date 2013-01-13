@@ -4,7 +4,7 @@
 $primaryBGColor: white;
 $primaryColor: rgb(60, 60, 60);
 
-$secondaryBGColor: rgb(232, 232, 232);
+$secondaryBGColor:  #b99f73 ;
 $secondaryColor: #999999;
 
 $buttonBGColor: #888888;
@@ -13,10 +13,10 @@ $buttonColor: rgba(0, 0, 0, 0.5);
 $buttonBGColorActive: rgba(0, 0, 0, 0.3);
 $buttonColorActive: #cccccc;
 
-$footerBGColor: #999999;
+$footerBGColor:#333;
 
 $header-color:#111;
-$headerBGColor: rgba(0, 0, 0, 0.2);
+$headerBGColor:#81c630;
 
 
 // Basic Typography Settings
@@ -27,6 +27,53 @@ $line-height: 24px;
 
 @include basic-typography(true);
 
+body{
+  font-family: 'trebuchet MS',Arial,sans-serif;
+  color: #444;
+}
+h1, h2, h3, h4{
+  font-family: 'Rokkitt', serif;
+}
+body{
+  background: $secondaryBGColor url(/images/moleskine_paper_brown.jpg)
+  fixed ;
+}
+header[role= banner] {
+  background: $headerBGColor url(/images/moleskine_paper_green.jpg)
+  fixed ;
+}
+#Logo{
+  color: darken($headerBGColor, 30%);
+  &:hover{
+    color:darken($headerBGColor, 15%);
+  }
+}
+a{
+  color: #fff;
+  &:hover{
+    color:#dadada;
+  }
+}
+[role=main] a, footer a{
+  color: $headerBGColor;
+  &:hover{
+    color: lighten($headerBGColor, 20%);
+  }
+}
+footer h1, footer h2, footer h3{
+  color:#ccc;
+}
+footer{
+  color:#ccc;
+  border-top:1px solid #000;
+}
+nav.secondary {
+  border-top:solid 1px #000;
+  border-bottom:solid 1px lighten($secondaryBGColor, 20%);
+  a{
+    @include clean-pill-button(lighten(#333, 10%), 36px);
+  }
+}
 
 // Grid stuff
 $grid-background-column-color: rgba(100, 100, 225, 0.25);

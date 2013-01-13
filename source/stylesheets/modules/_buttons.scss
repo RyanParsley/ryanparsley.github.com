@@ -1,16 +1,19 @@
 @mixin clean-pill-button($background: #666, $height: 48px){
   $shadow: darken($background, 20%);
   background: $background;
-  @include background-image(linear-gradient(rgba(255,255,255,.6),
-                                            rgba(255,255,255,.2) 50%,
+  @include background-image(linear-gradient(rgba(255,255,255,.3),
+                                            rgba(255,255,255,.1) 50%,
                                             rgba(255,255,255,0) 50%));
   @include box-shadow($shadow 1px 1px 3px,
                       inset lighten($background, 50%) 0px 1px 0);
+  display:inline-block;
   color: #fff;
   border: solid 1px $shadow;
   height: $height;
+  line-height: $height;
   padding-left:36px;
   padding-right:36px;
+  text-decoration:none;
   @include border-radius($height/2);
   @include text-shadow($shadow -1px -1px 0);
   &:hover{

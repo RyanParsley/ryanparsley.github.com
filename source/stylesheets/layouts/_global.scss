@@ -35,10 +35,9 @@ html {
   background: $footerBGColor; }
 
 body {
-  background: $secondaryBGColor;
-  color: $primaryColor;
   // Stops Mobile Safari from auto-adjusting font-sizes
   -webkit-text-size-adjust: 100%;
+  line-height:1.5;
   @if $show-grid-backgrounds{
     &:before{
       z-index: 2;
@@ -57,7 +56,6 @@ body {
 }
 
 header[role= banner] {
-  background: $headerBGColor;
   .container{
     padding-top: $line-height;
     padding-bottom: $line-height;
@@ -80,6 +78,8 @@ body>footer {
 
 [role=main] {
   background: $primaryBGColor;
+  border-radius: 6px;
+  margin-bottom: 2em;
 }
 
 nav {
@@ -88,17 +88,6 @@ nav {
     list-style: none; }
   li {
     display: inline-block; }
-  a {
-    display: block;
-    background: $buttonBGColor;
-    color: $buttonColor;
-    text-decoration: none;
-    padding: 6px;
-    &.active, &:hover {
-      background: $buttonBGColorActive;
-      color: $buttonColorActive; 
-    }
-  }
 }
 
 .CTA {
