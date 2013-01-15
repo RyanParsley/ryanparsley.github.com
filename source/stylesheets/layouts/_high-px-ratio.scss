@@ -5,4 +5,7 @@
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
   #{$container} {
   }
+  body, header[role= banner] {
+    background-size: 150px;
+  }
 }
