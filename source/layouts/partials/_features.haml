@@ -1,21 +1,27 @@
 %section
   %h1 Featured Projects
-  :markdown
-    You can check out all of my projects on my [GitHub profile page](http://github.com/RyanParsley). Here are a few that I'm especially proud of.
-%ul.features
-  %li
-    %h1 Pickle
-    :markdown
-      My middleman starting point using Haml and Sass (scss). [View Project](https://github.com/RyanParsley/Pickle)
-  %li
-    %h1 Blues Calculator
-    :markdown
-      A calculator for deriving the minor blues progression from a provided root note. It was made with CoffeeScript and Middleman. [View Project](https://github.com/RyanParsley/bluesCalculator).
-  %li
-    %h1 Sass Buttons
-    :markdown
-      I'm starting to collect the code I use to make buttons in different projects. I'm looking for patterns and hoping to elemenate redundancy.[View Project](https://github.com/RyanParsley/buttons).
-  %li
-    %h1 CraftyBlues
-    :markdown
-      This is the source for [http://craftyblues.com](http://craftyblues.com) a blog about cigar box guitars. This blog is powered by Middleman. [View Project](https://github.com/RyanParsley/craftyBlues).
+  %ul.features
+    %li
+      %h1= link_to 'Pickle', 'https://github.com/RyanParsley/Pickle'
+      :markdown
+        My middleman starting point using Haml and Sass (scss). It also has extra configuration (commented out by default) for setting up middleman-deploy, livereload, and a few other niceties. 
+
+      = link_to "View Project", "https://github.com/RyanParsley/Pickle", :class=> "button"
+    %li
+      %h1= link_to "Blues Calculator", "https://github.com/RyanParsley/bluesCalculator" 
+      :markdown
+        A calculator for deriving the minor blues progression from a provided root note. It was made with CoffeeScript and Middleman. 
+
+      = link_to "View Project", "https://github.com/RyanParsley/bluesCalculator", :class=> "button"
+    %li
+      %h1= link_to "Sass Buttons", "https://github.com/RyanParsley/buttons"
+      :markdown
+        I'm starting to collect the code I use to make buttons in different projects. I'm looking for patterns and hoping to elemenate redundancy.
+
+      = link_to "View Project", "https://github.com/RyanParsley/buttons", :class=>"button"
+    %li
+      %h1= link_to "CraftyBlues", "https://github.com/RyanParsley/craftyBlues"
+      :markdown
+        This is the source for [http://craftyblues.com](http://craftyblues.com) a blog about cigar box guitars and music theory. This blog is powered by Middleman. 
+
+      =link_to "View Project", "https://github.com/RyanParsley/craftyBlues", :class=>"button"

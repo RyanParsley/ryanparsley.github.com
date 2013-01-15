@@ -1,6 +1,6 @@
 module LilHelpers
   def page_title
-    page_title = "Site Name (Change me in the lib/lil_helpers.rb): "
+    page_title = "Ryan Parsley's GitHub Projects"
     if data.page.title
       page_title << data.page.title
     else

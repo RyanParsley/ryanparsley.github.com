@@ -48,6 +48,16 @@
     }
   }
   footer{padding-bottom:2em;}
+  .button{
+    display:block;
+    float:none;
+    margin-left: .25em;
+    margin-right: .25em;
+    margin-bottom:.25em;
+  }
+  .first, .second, .third{
+    margin-bottom:3em;
+  }
 }
 @media only screen and (max-width: 479px) {
   @include mobile; 
