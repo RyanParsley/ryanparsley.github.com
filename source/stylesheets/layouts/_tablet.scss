@@ -7,6 +7,9 @@
   #page {
     @include clearfix;
   }
+  h1{
+    font-size:1.5em;
+  }
   [role=main] {
     padding:1.5em 1.5em 1em;
     font-size:1.5em;
@@ -55,6 +58,9 @@
     float: left;
   }
   .features{
+    li{
+      min-height:19em;
+    }
     li:nth-child(2n + 1){
       @include column(4, first);
             @include prepend-column(1);

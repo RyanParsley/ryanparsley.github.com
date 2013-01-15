@@ -43,7 +43,9 @@ header[role= banner] {
   fixed ;
 }
 #Logo{
-  color: darken($headerBGColor, 30%);
+  font-family: 'Rokkitt', serif;
+
+  color: rgba(darken($headerBGColor, 30%), .8);
   text-shadow: 1px 1px 0px lighten($headerBGColor, 10%);
   &:hover{
     color:darken($headerBGColor, 15%);
@@ -76,7 +78,12 @@ nav.secondary {
   }
 }
 .features{
+     margin:0;
+    padding:0;
   li{
+    margin-top:0;
+    padding-top:0;
+    margin-bottom:2em;
     @include clearfix();
     h1{
       background:#fff;
@@ -84,6 +91,7 @@ nav.secondary {
       line-height:1.5;
       padding-left:.5em;
       padding:.25em .5em 0 .5em;
+      margin-top:0;
       a{
         color:#333;
         text-decoration:none;

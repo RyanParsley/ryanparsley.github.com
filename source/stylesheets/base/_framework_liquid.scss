@@ -14,7 +14,7 @@ $gutter-offset: $gutter-width * ( $column-count - 1) / $column-count;
 $column-width: (get-percent($max-width) / $column-count) - ($gutter-offset) ;
 
 @mixin grid($columns) {
-  width: 90%;
+  width: 85%;
   max-width: $max-width;
 
 }
