@@ -1,4 +1,4 @@
-# My middleman starting point using Haml and Sass (scss)
+[[#]] My middleman starting point using Haml and Sass (scss)
 
 Clone this project into `~/.middleman/` then change into whatever directory
 you like to work from. Use `middleman init [newDirectoryName]
